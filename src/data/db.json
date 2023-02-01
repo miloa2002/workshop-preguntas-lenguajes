@@ -1,0 +1,41 @@
+{
+    "preguntas": [
+        {
+            "html": {
+                "pregunta1": "¿Que etiqueta es semanticamente correcta para el contenido principal?",
+                "pregunta2": "¿Que etiqueta HTML nos sirve para incluir archivos de JavaScript?",
+                "pregunta3": "¿Que significa DRY?",
+                "pregunta4": "¿Organiza la estructura de un documento HTML5?",
+                "pregunta5": "¿Que tecnologias pertenece al MEVN Stack?"
+            },
+            "css": {
+                "pregunta1": "¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?",
+                "pregunta2": "¿Cuáles de las siguientes declaraciones son propiedades o atributos?",
+                "pregunta3": "¿Cuáles de las siguientes declaraciones son selectores?",
+                "pregunta4": "¿Con qué propiedad se define el espacio entre el borde de un elemento y los elementos que lo rodean?",
+                "pregunta5": "¿Qué significa CSS?"
+            },
+            "javascript": {
+                "pregunta1": "¿En qué lugar se ejecuta generalmente el código JavaScript?",
+                "pregunta2": "¿Cuáles de estas son marcas para la inserción del código JavaScript en las páginas HTML?",
+                "pregunta3": "La llamada al código Javascript debe colocarse en:",
+                "pregunta4": "En JavaScript, para darle el nombre a una variable, objeto o función, debemos tener en cuenta que:",
+                "pregunta5": "¿Cuál es la instrucción usada para devolver un valor en una función de JavaScript?"
+            },
+            "ux": {
+                "pregunta1": "¿Qué es UI?",
+                "pregunta2": "¿Qué significa para ti el término “Design Thinking”?",
+                "pregunta3": "¿Cuál es el objetivo principal del UX con una marca?",
+                "pregunta4": "¿Que es un UX Writer?",
+                "pregunta5": "¿Qué es UX?"
+            },
+            "figma": {
+                "pregunta1": "¿Con que regresamos al apartado de Drafts?",
+                "pregunta2": "¿En la barra de herramientas se presentara todo lo que necesitamos o queremos?",
+                "pregunta3": "Los usuarios que tienen permiso pueden visualizar todas nuestras herramientas.",
+                "pregunta4": "¿En que parte se encuentra la opción de Compartir o Colaborar?",
+                "pregunta5": "¿Puedo descargarme la aplicación de escritorio directamente desde el Canvas o interfaz de Figma?"
+            }
+        }
+    ]
+}
