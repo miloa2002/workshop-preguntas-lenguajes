@@ -1,4 +1,4 @@
-import { FooterUi } from "./FooterUi"
+import FooterUi from "./FooterUi"
 import IconsUi from "./IconsUi"
 
 const UI = () => {

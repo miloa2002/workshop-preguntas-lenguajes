@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterUi } from '../Home/FooterUi'
+import FooterUi from '../Home/FooterUi'
 import ValoresEstadisticas from './ValoresEstadisticas'
 
 const EstadisticasUi = () => {

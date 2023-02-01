@@ -29,6 +29,10 @@ body {
   padding: 30px 20px;
   overflow: hidden;
   position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 a {
   text-decoration: none;

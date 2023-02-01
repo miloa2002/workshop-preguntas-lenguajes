@@ -1,12 +1,13 @@
 import Home from "./pages/Home"
-import Estadisticas from "./pages/Estadisticas"
+import Router from "./router/Router"
 
 function App() {
 
   return (
     <>
-      <Home />
-      <Estadisticas />
+      <Router>
+        <Home />
+      </Router>
     </>
   )
 }
