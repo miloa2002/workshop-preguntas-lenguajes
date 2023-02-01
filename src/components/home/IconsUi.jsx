@@ -3,11 +3,13 @@ import iconCss from "../../assets/css.png"
 import iconJs from "../../assets/js.png"
 import iconFigma from "../../assets/figma.png"
 import iconUx from "../../assets/ux.png"
+import UsePreguntas from "../../hook/UsePreguntas"
 
 const IconsUi = () => {
+    const { preguntasHTML } = UsePreguntas();
     return (
         <div className='contenedor-icons'>
-            <div>
+            <div onClick={() => console.log(preguntasHTML)}>
                 <img className="icon-home" src={iconHtml} alt="html" />
                 <p>Html5</p>
             </div>

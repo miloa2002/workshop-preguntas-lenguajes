@@ -14,7 +14,6 @@ export const PreguntasProvider = ({ children }) => {
             const dat3 = await axios.get("http://localhost:3000/javascript")
             const dat4 = await axios.get("http://localhost:3000/ux")
             const dat5 = await axios.get("http://localhost:3000/figma")
-            console.log(data.data);
             setPreguntasHTML(data.data);
         } catch (error) {
             console.log(error);
