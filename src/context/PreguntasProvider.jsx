@@ -5,12 +5,17 @@ const preguntasContext = createContext();
 
 export const PreguntasProvider = ({ children }) => {
 
-    const [preguntas, setPreguntas] = useState([])
+    const [preguntasHTML, setPreguntasHTML] = useState([])
 
     const obtenerData = async () => {
         try {
-            const data = await axios.get("http://localhost:3000/preguntas")
-            setPreguntas(data.data);
+            const data = await axios.get("http://localhost:3000/html")
+            const dat2 = await axios.get("http://localhost:3000/css")
+            const dat3 = await axios.get("http://localhost:3000/javascript")
+            const dat4 = await axios.get("http://localhost:3000/ux")
+            const dat5 = await axios.get("http://localhost:3000/figma")
+            console.log(data.data);
+            setPreguntasHTML(data.data);
         } catch (error) {
             console.log(error);
         }
@@ -21,7 +26,7 @@ export const PreguntasProvider = ({ children }) => {
     }, [])
 
     return (
-        <preguntasContext.Provider value={{ preguntas }}>
+        <preguntasContext.Provider value={{ preguntasHTML }}>
             {children}
         </preguntasContext.Provider>
     )
