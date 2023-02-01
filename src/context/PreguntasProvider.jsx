@@ -1,13 +1,27 @@
-import { createContext } from "react";
+import { createContext, useEffect, useState } from "react";
+import axios from "axios";
 
 const preguntasContext = createContext();
 
 export const PreguntasProvider = ({ children }) => {
 
-    let hola = console.log("hola");
+    const [preguntas, setPreguntas] = useState([])
+
+    const obtenerData = async () => {
+        try {
+            const data = await axios.get("http://localhost:3000/preguntas")
+            setPreguntas(data.data);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    useEffect(() => {
+        obtenerData();
+    }, [])
 
     return (
-        <preguntasContext.Provider value={{ hola }}>
+        <preguntasContext.Provider value={{ preguntas }}>
             {children}
         </preguntasContext.Provider>
     )

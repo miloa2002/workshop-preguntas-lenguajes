@@ -25,7 +25,7 @@ const IconsUi = () => {
             <div className="icon-flex">
                 <div>
                     <img className="icon-home" src={iconFigma} alt="figma" />
-                    <p>Figam</p>
+                    <p>Figma</p>
                 </div>
                 <div>
                     <img className="icon-home" src={iconUx} alt="ux" />

@@ -8,6 +8,7 @@ const Router = () => {
             <Routes>
                 <Route path="/" element={<Home />} >
                     <Route path="/estadisticas" element={<Estadisticas />} />
+                    //ruta del perfil
                 </Route>
             </Routes>
         </BrowserRouter>
