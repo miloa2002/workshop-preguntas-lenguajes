@@ -1,0 +1,19 @@
+.contenedor-valores {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.valor-flex {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid var(--blanco);
+  border-radius: 5px;
+  padding: 20px;
+}
+.valor-correcta {
+  color: var(--verde);
+}
+.valor-incorrecto {
+  color: rgb(164, 4, 4);
+}

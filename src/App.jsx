@@ -1,10 +1,12 @@
-import './App.css'
+import Home from "./pages/Home"
+import Estadisticas from "./pages/Estadisticas"
 
 function App() {
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <Home />
+      <Estadisticas />
     </>
   )
 }
