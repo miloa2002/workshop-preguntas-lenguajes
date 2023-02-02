@@ -43,5 +43,10 @@
             "pregunta4": "¿En que parte se encuentra la opción de Compartir o Colaborar?",
             "pregunta5": "¿Puedo descargarme la aplicación de escritorio directamente desde el Canvas o interfaz de Figma?"
         }
-    ]
+    ],
+    "respuestashtml": [],
+    "respuestascss": [],
+    "respuestasjavascript": [],
+    "respuestasfigma": [],
+    "respuestaux": []
 }
