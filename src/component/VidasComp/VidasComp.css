@@ -1,0 +1,18 @@
+.barra_container {
+    width: 80%;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.contenedor__vidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corazon__icon {
+    color: brown;
+    margin-right: 5px;
+}

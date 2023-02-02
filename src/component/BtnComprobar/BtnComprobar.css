@@ -1,0 +1,9 @@
+.btnComprobar {
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #6B47DC;
+    color: aliceblue;
+
+}

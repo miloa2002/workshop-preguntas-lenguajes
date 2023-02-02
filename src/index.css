@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--fondoBody);
 }
+
 :root {
   --fondoBody: #6b47dc;
   --fondoCel: #16161a;
@@ -18,6 +21,7 @@ body {
   --verde: #2cb67d;
   --btn-comprobar: #6b47dc;
 }
+
 .container {
   width: 400px;
   height: 100vh;
@@ -34,6 +38,7 @@ body {
   left: 0;
   right: 0;
 }
+
 a {
   text-decoration: none;
   color: var(--blanco);
