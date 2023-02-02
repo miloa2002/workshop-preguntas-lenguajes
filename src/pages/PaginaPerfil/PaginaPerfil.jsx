@@ -1,6 +1,6 @@
 import React from 'react'
 import "./PaginaPerfil.css"
-import "../VentanaGeneral/VentanaGeneral.css"
+
 import avatar from "../../assets/aiony-haust-3TLl_97HNJo-unsplash.jpg"
 
 const PaginaPerfil = () => {

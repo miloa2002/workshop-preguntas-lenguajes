@@ -17,10 +17,10 @@ const FooterUi = () => {
                         <img src={iconEstadisticas} alt="icon-home" />
                         <p className="items-footer">Estadisticas</p>
                     </Link>
-                    <a href="#" className="hover-icon">
+                    <Link to="/perfil" className="hover-icon">
                         <img src={iconUser} alt="icon-home" />
                         <p className="items-footer">Perfil</p>
-                    </a>
+                    </Link>
                 </div>
             </nav>
         </>
