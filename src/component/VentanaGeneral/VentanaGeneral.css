@@ -1,0 +1,11 @@
+.container {
+    width: 500px;
+    height: 100vh;
+    background-color: black;
+    border: 1px solid #000;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 10px;
+    overflow: hidden;
+}

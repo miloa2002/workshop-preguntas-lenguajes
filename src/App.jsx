@@ -1,10 +1,12 @@
 import './App.css'
+import PaginaPerfil from './component/PaginaPerfil'
+import VentanaGeneral from './component/VentanaGeneral'
 
 function App() {
 
   return (
     <>
-      <h1>Hola mundo</h1>
+
     </>
   )
 }

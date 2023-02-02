@@ -1,5 +1,16 @@
+:root {
+  --fondo: #16161A;
+  --footer: #232E35;
+  --blanco: #FFFFFE;
+  --verde: #2CB67D;
+  --btn-comprobar: #6B47DC;
+
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
