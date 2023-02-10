@@ -2,14 +2,13 @@ import React from 'react'
 import BtnComprobar from '../BtnComprobar'
 import ListaRespuestas from '../ListaRespuestas'
 import Pregunta from '../Pregunta'
-import VidasComp from '../VidasComp'
 import "./VentanaGeneral.css"
+import VidasComp from '../VidasComp/VidasComp'
 
 const VentanaGeneral = () => {
     return (
 
         <div className='container'>
-
 
             <VidasComp />
             <Pregunta />
