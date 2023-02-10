@@ -1,6 +1,6 @@
 import React from 'react'
 import "./VidasComp.css"
-import { BsSuitHeartFill } from "react-icons/bs";
+
 
 const VidasComp = () => {
     return (
@@ -10,8 +10,6 @@ const VidasComp = () => {
 
                 </div>
                 <div className='vidas_icons'>
-                    <BsSuitHeartFill className='corazon__icon' />
-
                 </div>
                 <span>4</span>
 

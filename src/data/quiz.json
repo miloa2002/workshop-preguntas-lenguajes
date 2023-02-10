@@ -1,0 +1,118 @@
+{
+    "questionHtml": [
+        {
+            "id": 0,
+            "question": " que singnigica el acronimo HTML",
+            "options": [
+                "Hyper text mask language",
+                "hard text markup language",
+                "hyper text markup language",
+                "hard text mask language"
+            ],
+            "answer": "hyper text markup language"
+        },
+        {
+            "id": 1,
+            "question": " que etiqueta es correcta para indicar un salto de linea",
+            "options": [
+                "</br>",
+                "<br/>",
+                "<breakLine>",
+                "<hr>"
+            ],
+            "answer": "</br>"
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál es la forma correcta de escribir un comentario en HTML? ",
+            "options": [
+                "/* */",
+                "<!–…–>",
+                "ctrl + c",
+                "<¡–…–>r"
+            ],
+            "answer": "<!–…–>"
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál es la forma correcta de escribir un enlace en HTML?",
+            "options": [
+                "<a title=» «>…</>",
+                "<a href=» «>…</a>",
+                "<a src=» «>…</a>",
+                "<link href=» «>…<link>"
+            ],
+            "answer": "<a href=» «>…</a>"
+        }
+    ],
+    "questionsCSS": [
+        {
+            "id": 0,
+            "question": "¿Qué significa CSS?",
+            "options": [
+                "Color Style Sheets",
+                "Code of Style Sheets",
+                "Coded Style Sheets ",
+                "Cascading Style Sheets"
+            ],
+            "answer": "Cascading Style Sheets"
+        },
+        {
+            "id": 1,
+            "question": "¿Cómo podemos añadir un comentario en una hoja de estilo CSS?",
+            "options": [
+                "<!-- -->",
+                "/**/",
+                "!!",
+                "//node_modules"
+            ],
+            "answer": "/**/"
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?",
+            "options": [
+                "En línea",
+                "Incrustado en la cabecera",
+                "Hojas de estilo externas",
+                "Mediante PHP"
+            ],
+            "answer": "Hojas de estilo externas"
+        },
+        {
+            "id": 3,
+            "question": "¿Cuáles de las siguientes declaraciones son propiedades o atributos?",
+            "options": [
+                "span",
+                "italic",
+                "background-color",
+                "h1"
+            ],
+            "answer": "background-color"
+        },
+        {
+            "id": 4,
+            "question": "¿Cómo se define un color de fondo para todas las etiquetas <p> en CSS?",
+            "options": [
+                "p.all {background-color:red;}",
+                "p {background-color:red;}",
+                "#p {background-color:red;}",
+                "r.p {background-color:red;}"
+            ],
+            "answer": "p {background-color:red;}"
+        }
+    ],
+    "questionsJS": [
+        {
+            "id": 0,
+            "question": "¿Cómo debo exportar una Clase?",
+            "options": [
+                "export default { ClassName }",
+                "export { ClassName }",
+                "export default ClassName",
+                "export  ClassName "
+            ],
+            "answer": "export default ClassName"
+        }
+    ]
+}

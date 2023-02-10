@@ -1,40 +1,37 @@
-import iconHtml from "../../assets/html5.png"
-import iconCss from "../../assets/css.png"
-import iconJs from "../../assets/js.png"
-import iconFigma from "../../assets/figma.png"
-import iconUx from "../../assets/ux.png"
+
 import UsePreguntas from "../../hook/UsePreguntas"
+import { Link } from "react-router-dom"
+import CATEGORIES from "../../constants/categories"
+import { useState } from "react"
+import VentanaGeneral from "../../component/VentanaGeneral/VentanaGeneral"
+
 
 const IconsUi = () => {
-    const { preguntasHTML } = UsePreguntas();
-    return (
-        <div className='contenedor-icons'>
-            <div onClick={() => console.log(preguntasHTML)}>
-                <img className="icon-home" src={iconHtml} alt="html" />
-                <p>Html5</p>
-            </div>
-            <div className="icon-flex">
-                <div>
-                    <img className="icon-home" src={iconCss} alt="css" />
-                    <p>Css3</p>
-                </div>
-                <div>
-                    <img className="icon-home" src={iconJs} alt="js" />
-                    <p>Js</p>
-                </div>
-            </div>
+    const { preguntasHTML, preguntasCSS } = UsePreguntas();
+    const [categoryes, setCategoryes] = useState(null)
+    const [questions, setQuestions] = useState([]);
+    // console.log(preguntasHTML);
 
-            <div className="icon-flex">
-                <div>
-                    <img className="icon-home" src={iconFigma} alt="figma" />
-                    <p>Figma</p>
-                </div>
-                <div>
-                    <img className="icon-home" src={iconUx} alt="ux" />
-                    <p>Ux</p>
-                </div>
-            </div>
-        </div>
+
+    return (
+
+        <div className='contenedor-icons'>
+            {
+                Object.values(CATEGORIES).map((e, i) => (
+
+                    <Link value={e.name} to={`/quiz/${e.name}`} key={i}>
+                        <img className="icon-home" src={e.icon} alt={e.name} />
+                        <p>{e.name}</p>
+                    </Link>
+
+
+                ))
+            }
+
+
+
+
+        </div >
     )
 }
 
