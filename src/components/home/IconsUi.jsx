@@ -5,6 +5,7 @@ import iconFigma from "../../assets/figma.png"
 import iconUx from "../../assets/ux.png"
 import UsePreguntas from "../../hook/UsePreguntas"
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 const IconsUi = () => {
     const { preguntasHTML } = UsePreguntas();
@@ -12,13 +13,13 @@ const IconsUi = () => {
     const { preguntasJS } = UsePreguntas();
     const { preguntasFIGMA } = UsePreguntas();
     const { preguntasUX } = UsePreguntas();
+
+
     return (
         <div className='contenedor-icons'>
-            <div>
-                <Link to={"/preguntas"}>
-                    <img className="icon-home" src={iconHtml} alt="html" />
-                    <p>Html5</p>
-                </Link>
+            <div onClick={() => console.log(preguntasHTML)}>
+                <img className="icon-home" src={iconHtml} alt="html" />
+                <p>Html5</p>
             </div>
             <div className="icon-flex">
                 <div onClick={() => console.log(preguntasCSS)}>

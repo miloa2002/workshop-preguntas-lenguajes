@@ -5,7 +5,9 @@ import Pregunta from '../Pregunta'
 import "./VentanaGeneral.css"
 import VidasComp from '../VidasComp/VidasComp'
 
+
 const VentanaGeneral = () => {
+
     return (
 
         <div className='container'>

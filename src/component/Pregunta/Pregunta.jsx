@@ -3,6 +3,7 @@ import "./Pregunta.css"
 import IMGicon from "../../assets/iconmniño.png"
 
 
+
 const Pregunta = () => {
     return (
         <div className='pregunta_container'>
